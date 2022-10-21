@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#070707"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="19dp"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:id="@+id/degreecontent1_scroll"
+            android:layout_width="383dp"
+            android:layout_height="670dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="■ 개인정보 수집 및 이용목적 \n
+회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다.\n
+*게시판 이용\n
+-회원가입을 한 사용자는 게시판 글 작성, 댓글 작성 좋아요등 커뮤니티 활동을 이용할 수 있습니다.\n\n
+
+■ 개인정보 수집 항목\n
+회사는 회원가입, 서비스 신청을 위해 아래와 같은 개인정보를 수집하고 있습니다.\n
+*수집항목: 아이디,이메일, 비밀번호, 이름(닉네임)
+,성별,키,나이\n
+*개인정보 수집방법: 앱 설치시 회원가입 메뉴를 통해서 가입\n\n
+
+* 고객의 개인정보는 회원탈퇴 등 수집 및 이용목적이 달성되거나 동의철회 요청이 있는 경우 지체없이 파기됩니다.\n\n
+
+■ 개인정보 보유 및 이용기간\n
+회사는 개인정보 수집 및 이용목적이 달성된 후에는 예외 없이 해당 정보를 파기합니다.\n\n
+
+■ 개인정보 파기절차 및 파기방법\n
+회사는 개인정보 수집 및 이용목적이 달성된 후에는 예외 없이 해당 정보를 파기합니다.\n
+파기절차 및 파기방법은 다음과 같습니다.\n\n
+
+- 개인정보의 보유 및 이용 기간, 개인정보의 파기절차 및 파기방법\n
+*파기절차\n
+회원님이 회원가입 등을 위해 입력하신 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부 방침 및 기타 관련 법령에 의한 정보보호 사유에 따라(보유 및 이용기간 참조) 일정 기간 저장된 후 파기되어집니다.\n
+별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 보유되어지는 이외의 다른 목적으로 이용되지 않습니다.\n\n
+
+* 파기방법\n
+종이에 출력된 개인정보는 분쇄기로 분쇄 또는 소각하여 파기합니다.\n
+전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.\n\n
+
+■개인정보 보호책임자\n\n
+ 고객의 개인정보를 보호하고 개인정보와 관련한 불만을 처리하기 위하여 아래와 같이 관련 부서 및 개인정보관리책임자를 지정하고 있습니다. 개인정보와 관련하여 민원이나 문의가 있으시면, 연락주시기 바랍니다. 성심성의껏 응대하겠습니다.\n\n
+
+*개인정보 책임자: 홍길동\n
+*담당부서: 서비스팀\n
+*전화번호: 000-0000-0000\n
+*이메일: help@swing2app.co.kr\n\n
+
+회사의 서비스를 이용하시며 발생하는 모든 개인정보보호 관련 민원을 개인정보관리책임자 혹은 담당부서로 신고하실 수 있습니다. 회사는 이용자들의 신고사항에 대해 신속하게 충분한 답변을 드릴 것입니다.\n\n
+
+기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래 기관에 문의하시기 바랍니다.\n
+1.개인분쟁조정위원회 (www.1336.or.kr/1336)\n
+2.정보보호마크인증위원회 (www.eprivacy.or.kr/02-580-0533~4)\n
+3.대검찰청 인터넷범죄수사센터 (http://icic.sppo.go.kr/02-3480-3600)\n
+4.경찰청 사이버테러대응센터(www.ctrc.go.kr/) " />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="개인정보 수집 이용"
+            android:textColor="#070707"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/degree2_pre"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:onClick="PreDegree2"
+        app:layout_constraintEnd_toStartOf="@+id/date_txt"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        app:tint="#000000"
+        tools:ignore="MissingConstraints,NotSibling" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

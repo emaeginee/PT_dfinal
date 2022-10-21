@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaal"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:id="@+id/mypageInbody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <android.widget.Button
+        android:id="@+id/setLogout"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="btn_logout"
+        android:text="로그아웃"
+        android:textColor="#5D5D5D"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setProfile"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <android.widget.Button
+        android:id="@+id/setNotice"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/notice"
+        android:paddingLeft="15dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="Notice"
+        android:text="         공지사항"
+        android:textAlignment="textStart"
+        android:textColor="#5D5D5D"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <android.widget.Button
+        android:id="@+id/setUpdate"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/version_info"
+        android:paddingLeft="15dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="Version"
+        android:text="         버전정보"
+        android:textAlignment="viewStart"
+        android:textColor="#5D5D5D"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/setNotice"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/setNotice"
+        app:layout_constraintTop_toBottomOf="@+id/setNotice"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <android.widget.Button
+        android:id="@+id/setProfile"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/infoupdate"
+        android:paddingLeft="15dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="RegisterUpdate"
+        android:text="         개인정보 변경"
+        android:textAlignment="textStart"
+        android:textColor="#5D5D5D"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/setUpdate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/setUpdate"
+        app:layout_constraintTop_toBottomOf="@+id/setUpdate"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <android.widget.Button
+        android:id="@+id/setDelete"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="delete"
+        android:text="탈퇴하기"
+        android:textColor="#5D5D5D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setLogout"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

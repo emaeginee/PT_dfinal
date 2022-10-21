@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaal">
+
+    <TextView
+        android:id="@+id/mypageInbody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/setLogout"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#66FFFFFF"
+        android:text="          문의하기"
+        android:textAlignment="textStart"
+        android:textColor="#5D5D5D"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CenterInfoBox"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/CenterInfoBox"
+        android:layout_width="390dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#00FFFFFF"
+        android:textAlignment="textStart"
+        android:textColor="#5D5D5D"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dietDate"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/setDelete"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#66FFFFFF"
+        android:text="          도움말"
+        android:textAlignment="textStart"
+        android:textColor="#5D5D5D"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setLogout"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/weightNext3"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_etc"
+        android:backgroundTint="#66FFFFFF"
+        android:text="          자주 묻는 질문"
+        android:textAlignment="textStart"
+        android:textColor="#5D5D5D"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setDelete"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/dietDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:text="안녕하세요. \nPT 고객센터입니다.\n무엇을 도와드릴까요?"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mypageInbody" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요. PT 고객센터입니다. \n \n코로나 19의 확산에 따라, PT 고객센터 내 상담직원의 \n안전을 위해 제한 운영 중에 있습니다. \n \n이에 문의하기 회신이 늦어질 수 있는 점 미리 양해 \n부탁드리며, 확인 후 순차적으로 도움 드리겠습니다. \n \n감사합니다."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/CenterInfoBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/CenterInfoBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
