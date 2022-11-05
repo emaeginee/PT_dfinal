@@ -31,7 +31,7 @@
 |Frontend|Frontend|Backend|Backend|
 |Design|Design|DB|DB|
 |DB|Tester|Design|Design|
-|Tester||Technical Writer|Tester|
+|Tester|Technical Writer|Technical Writer|Tester|
 |100%|100%|100%|100%|
 
 ## ⚙ 사용언어 및 개발환경
